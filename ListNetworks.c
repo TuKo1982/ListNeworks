@@ -399,7 +399,7 @@ static VOID FreeSana2DeviceNames(STRPTR * nameArray, ULONG count)
 
 static VOID PrintSeparator(VOID)
 {
-	PutStr("--------+-------------------+------+---------+--------\n");
+	PutStr("---------+-------------------+------+----------+--------\n");
 }
 
 /******************************************************************************
@@ -412,7 +412,7 @@ static VOID PrintNetworkHeader(VOID)
 {
 	PutStr("\n");
 	PrintSeparator();
-	PutStr(" Signal | BSSID             | Chan | Band    | SSID\n");
+	PutStr(" Signal  | BSSID             | Chan | Band     | SSID\n");
 	PrintSeparator();
 }
 
