@@ -2,7 +2,8 @@
 
 A CLI tool for AmigaOS 3.x to list wireless networks using the SANA2 protocol.
 
-Based on the ShowSanaDev source code by Philippe CARPENTIER.
+Based on the ShowSanaDev source code by our amiga sorcerer Philippe CARPENTIER.
+https://github.com/flype44/ShowSanaDev
 
 ## Requirements
 
@@ -35,6 +36,8 @@ ListNetworks [DEVICE=<devicename>] [UNIT=<unitnumber>] [VERBOSE]
 - **VERBOSE** — Show extended device information including MAC address,
   hardware type, signal quality, connected network info, and supported
   encryption types.
+
+- **SHORT** — Outputs names of wireless network without much details
 
 ### Examples
 
